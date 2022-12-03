@@ -1,0 +1,94 @@
+%svg-common {
+	background: url("sprite.svg") no-repeat;
+}
+
+.ch-bottom {
+	@extend %svg-common;
+	background-position: 0 0;
+}
+
+.ch-bottom-dims {
+	width: 50px;
+	height: 50px;
+}
+
+.ch-left {
+	@extend %svg-common;
+	background-position: 50% 0;
+}
+
+.ch-left-dims {
+	width: 50px;
+	height: 50px;
+}
+
+.ch-right {
+	@extend %svg-common;
+	background-position: 0 50%;
+}
+
+.ch-right-dims {
+	width: 50px;
+	height: 50px;
+}
+
+.ch-top {
+	@extend %svg-common;
+	background-position: 50% 50%;
+}
+
+.ch-top-dims {
+	width: 50px;
+	height: 50px;
+}
+
+.envelope {
+	@extend %svg-common;
+	background-position: 100% 0;
+}
+
+.envelope-dims {
+	width: 50px;
+	height: 50px;
+}
+
+.menu {
+	@extend %svg-common;
+	background-position: 100% 50%;
+}
+
+.menu-dims {
+	width: 50px;
+	height: 50px;
+}
+
+.phone {
+	@extend %svg-common;
+	background-position: 0 100%;
+}
+
+.phone-dims {
+	width: 50px;
+	height: 50px;
+}
+
+.search {
+	@extend %svg-common;
+	background-position: 50% 100%;
+}
+
+.search-dims {
+	width: 50px;
+	height: 50px;
+}
+
+.shopping-cart {
+	@extend %svg-common;
+	background-position: 100% 100%;
+}
+
+.shopping-cart-dims {
+	width: 50px;
+	height: 50px;
+}
+

@@ -1,0 +1,44 @@
+%svg-common {
+	background: url("sprite.svg") no-repeat;
+}
+
+.cart {
+	@extend %svg-common;
+	background-position: 0 0;
+}
+
+.cart-dims {
+	width: 57px;
+	height: 56px;
+}
+
+.phone {
+	@extend %svg-common;
+	background-position: 100% 0;
+}
+
+.phone-dims {
+	width: 54px;
+	height: 54px;
+}
+
+.search {
+	@extend %svg-common;
+	background-position: 0 100%;
+}
+
+.search-dims {
+	width: 54px;
+	height: 53px;
+}
+
+.wallclock_ {
+	@extend %svg-common;
+	background-position: 88.52459016393442% 94.91525423728814%;
+}
+
+.wallclock_-dims {
+	width: 50px;
+	height: 50px;
+}
+

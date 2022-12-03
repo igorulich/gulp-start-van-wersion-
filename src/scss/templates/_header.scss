@@ -1,0 +1,39 @@
+header.header{
+position: relative;
+top: 0;
+left: 0;
+width: 100%;
+background: $accent;
+height: 240px;
+max-width: 1920px;
+text-align: center;
+color:$white;
+text-transform: uppercase;
+font-style: italic;
+}
+.header__nav{
+	position: absolute;
+	top: 3%;
+	right: 6%;
+}
+.header__nav_menu{
+	position: relative;
+	top: 0;
+	left: 0;
+		width: 60px;
+	height: 60px;
+	background: $bg;
+	padding: 15px;
+	border-radius: 4px;
+}
+.menu{
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	opacity: 0.4;
+	transition: all 0.5s linear;
+	&:hover{
+		opacity: 1;
+	}
+
+}
