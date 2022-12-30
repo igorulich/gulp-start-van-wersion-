@@ -19,26 +19,6 @@ eval("AOS.init({\n  once: false,\n  easing: \"ease\",\n  debounceDelay: 50,\n  T
 
 /***/ }),
 
-/***/ "./src/js/func/menu.js":
-/*!*****************************!*\
-  !*** ./src/js/func/menu.js ***!
-  \*****************************/
-/***/ (() => {
-
-eval("$(\"#order\").on(\"click\", function () {\n  $(\"#order_item\").toggleClass(\"active\");\n});\n\n//# sourceURL=webpack://gulp_starter_template/./src/js/func/menu.js?");
-
-/***/ }),
-
-/***/ "./src/js/func/modal.js":
-/*!******************************!*\
-  !*** ./src/js/func/modal.js ***!
-  \******************************/
-/***/ (() => {
-
-eval("\n\n//# sourceURL=webpack://gulp_starter_template/./src/js/func/modal.js?");
-
-/***/ }),
-
 /***/ "./src/js/func/slick.js":
 /*!******************************!*\
   !*** ./src/js/func/slick.js ***!
@@ -56,7 +36,7 @@ eval("$(\".slick-carousel\").slick({\n  dots: false,\n  infinite: true,\n  autop
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _func_modal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./func/modal */ \"./src/js/func/modal.js\");\n/* harmony import */ var _func_modal__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_func_modal__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _func_slick__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./func/slick */ \"./src/js/func/slick.js\");\n/* harmony import */ var _func_slick__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_func_slick__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _func_aos__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./func/aos */ \"./src/js/func/aos.js\");\n/* harmony import */ var _func_aos__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_func_aos__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _func_menu__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./func/menu */ \"./src/js/func/menu.js\");\n/* harmony import */ var _func_menu__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_func_menu__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\n\n//# sourceURL=webpack://gulp_starter_template/./src/js/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _func_slick__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./func/slick */ \"./src/js/func/slick.js\");\n/* harmony import */ var _func_slick__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_func_slick__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _func_aos__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./func/aos */ \"./src/js/func/aos.js\");\n/* harmony import */ var _func_aos__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_func_aos__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\n//# sourceURL=webpack://gulp_starter_template/./src/js/main.js?");
 
 /***/ })
 
@@ -134,8 +114,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _fun
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
 /******/ 	__webpack_require__("./src/js/main.js");
 /******/ 	__webpack_require__("./src/js/func/aos.js");
-/******/ 	__webpack_require__("./src/js/func/menu.js");
-/******/ 	__webpack_require__("./src/js/func/modal.js");
 /******/ 	var __webpack_exports__ = __webpack_require__("./src/js/func/slick.js");
 /******/ 	
 /******/ })()
